@@ -1,1 +1,1 @@
-# jvCode
+# jvCode for algorithm in leetcode
