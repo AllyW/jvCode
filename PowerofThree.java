@@ -35,7 +35,6 @@ public class PowerofThree{
 		Scanner reader = new Scanner(System.in);  // Reading from System.in
 		System.out.println("Enter a number: ");
 		int n = reader.nextInt();
-		boolean res = isPowerOfThree2(n);
 		System.out.println("is Power of three? ");
 		System.out.println("method 1:" + isPowerOfThree1(n));
 		System.out.println("method 2:" + isPowerOfThree2(n));
