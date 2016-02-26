@@ -45,7 +45,7 @@ public class SummaryRanges {
         System.out.println("");
         System.out.println("Ranges: ");
 		for(int i=0; i < res.size(); i++){
-			System.out.print(res.get(i) + " ");
+			System.out.print(res.get(i) + " "); // list.get(), does not support index[]
 		}
         System.out.println("");
 		int[] nums2 = new int[] {1,2,3,33};
