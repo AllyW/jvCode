@@ -21,8 +21,8 @@ findMedian() -> 2
 
 */
 
-// note: any class is a set of variables and functions.
-// search here is search for a string that starts from the root and must end with the root's endpoint
+// c++ has priority queue as following. 
+// priority_queue<long> small, large;
 import java.io.*;
 import java.util.*;
 public class FindMedianfromDataStream {
