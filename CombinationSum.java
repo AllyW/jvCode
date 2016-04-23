@@ -36,7 +36,6 @@ public class CombinationSum {
             return;
         }
         for(int i = pos; i < candidates.length; i++){
-            //if(i > pos && candidates[i-1] == candidates[i]) continue;
             a.add(candidates[i]);
             comSumRe(candidates, L, i, target-candidates[i], a);
             a.remove(a.size()-1);
