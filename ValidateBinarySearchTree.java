@@ -12,7 +12,7 @@ confused what "{1,#,2,3}" means? > read more on how binary tree is serialized on
 
 
 import java.io.*;
-import java.util.*;
+
 public class ValidateBinarySearchTree {
 	public static class TreeNode {
 		int val;
